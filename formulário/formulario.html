@@ -1,0 +1,42 @@
+<!-- Eu assisti as video aulas do Gustavo Guanabara sobre JavaScript, e estava a fim de praticar algumas coisas que eu ia lembrando,
+por isso a simplicidade e, possivelmente, muitos erros. Se alguém puder me dar alguma dica para eu evoluir, será de grande ajuda. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Newmar Lucas">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="javascript.js"></script>
+</head>
+
+<body>
+    <header>
+        Formulário de cadastro
+    </header>
+    <section>
+        <div id="formulario">
+            <p>Insira seu nome: <input type="text" name="NomeUsuario" id="NomeUsuario" autofocus></p>
+            <p>Insira sua idade: <input type="number" name="IdadeUsuario" id="IdadeUsuario"></p>
+            <p>País de origem: <input type="text" name="PaisOrigem" id="PaisOrigem"></p>
+            <p>Cidade de origem: <input type="text" name="CidadeOrigem" id="CidadeOrigem"></p>
+            <p>Telefone/Celular: <input type="text" name="Telefone" id="Telefone"></p>
+            <p>Email: <input type="text" name="Email" id="Email"></p>
+            <p><input type="button" value="Enviar" onclick="envia()"></p>
+        </div>
+    </section>
+
+    <div id="sel">
+        Após enviar, aparecerá aqui os valores inseridos!
+    </div>
+
+    <footer>
+        Newmar Lucas &copy; 2019
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+header {
+    text-align: center;
+    background: rgb(42, 47, 59);
+    height: 60px;
+    font: normal 30pt Arial;
+    color: white;
+    padding: 12px;
+    border: 2px solid black;
+}
+
+body {
+    background: rgb(122, 165, 163);
+    padding: 12px;
+}
+
+footer{
+    padding: 15px;
+    color: white;
+    font: normal 12pt verdan;
+    text-align: right;
+}
+
+#formulario {
+    background: rgb(76, 141, 101);
+    border-radius: 10px;
+    padding: 15px;
+    width: 85%;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.829);
+    color: white;
+    font: normal 18pt arial;
+}
+
+#sel {
+    background: rgb(40, 119, 184);
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.829);
+    color: white;
+    font: normal 16pt arial;
+}
+
+div {
+    text-align: center;
+}
